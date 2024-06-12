@@ -1,4 +1,67 @@
 #main-view {
     height:max-content;
     background-color: black;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
+
+.card {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+}
+
+#session-presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#session-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.session-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+
+    width: 25%;
+
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(61,61,61,0.6853335084033614) 57%, rgba(102,102,102,0) 100%);
+    border-bottom: 0.5px solid white;
+    border-radius: 10px;
+    opacity: 0.2;
+}
+
+.session-card:hover {
+    opacity: 1;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.card-img {
+    height: 300px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    border-radius: 10px;
+
+}
+
