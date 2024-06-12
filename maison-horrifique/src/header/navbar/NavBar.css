@@ -1,0 +1,8 @@
+#main-nav {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-button {
+    margin: 10px;
+}

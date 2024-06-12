@@ -1,0 +1,13 @@
+#main-header {
+    height: 5vh;
+    background-color: white;
+    border-bottom: 0.5px solid gray;
+
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
