@@ -10,10 +10,15 @@
 
 #footer-links {
     margin-left: 20px;
+    display: flex;
     color: white;
 }
 
-#footer-links>p:hover {
+#footer-links>div>p {
+    margin-right: 30px;
+}
+
+#footer-links>div>p:hover {
     transform: scale(1.1);
     cursor: pointer;
     color: white;

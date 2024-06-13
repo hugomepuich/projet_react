@@ -40,10 +40,14 @@ function Footer() {
     return (
         <footer id="main-footer">
             <div id='footer-links'>
-                <p>Détail des sessions</p>
-                <p>Mentions légales</p>
-                <p>Formulaire de contact</p>
-                <p>© 2021 Maison Horrifique</p>
+                <div>
+                    <p>Détail des sessions</p>
+                    <p>Mentions légales</p>
+                </div>
+                <div>
+                    <p>Formulaire de contact</p>
+                    <p>© 2021 Maison Horrifique</p>
+                </div>
             </div>
             <div id='footer-socials'>
                 <SocialDivs />

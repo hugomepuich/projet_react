@@ -73,8 +73,10 @@ function MainView() {
     return (
         <main id="main-view">
             <SessionPresentation />
-            <CompanyPresentation />
-            <ContactInformation />
+            <div id='about'>
+                <CompanyPresentation />
+                <ContactInformation />
+            </div>
         </main>
     )
 }
